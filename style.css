@@ -45,6 +45,7 @@ html {
 body {
   width: 100%;
   background-color: #ebeff2;
+  position: relative;
 }
 
 header {
@@ -713,4 +714,33 @@ header nav a:hover {
 .order-form .placing-an-order .ordering-block label .checkbox:checked + .checkbox-circle::before {
   transform: translate(-50%, -50%) scale(1);
   transition: 0.2s ease-in-out;
+}
+
+footer {
+  z-index: 3;
+  width: 1100px;
+  margin: 374px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .logo {
+  width: 450px;
+}
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+}
+footer nav a {
+  color: #8f8f8f;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+footer nav a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
