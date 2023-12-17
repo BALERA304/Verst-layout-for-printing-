@@ -340,7 +340,7 @@ header nav a:hover {
 .popular-goods {
   box-sizing: border-box;
   position: relative;
-  margin: 105px 0 105px 0;
+  margin-top: 105px;
   max-width: 100vw;
   width: 100%;
   height: 623px;
@@ -405,4 +405,312 @@ header nav a:hover {
 .popular-goods .three {
   top: 350px;
   left: 1000px;
+}
+
+.order-form {
+  margin: 0 auto;
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 53px;
+}
+.order-form .title-order-form {
+  margin-top: 80px;
+  color: #0d386b;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.order-form .placing-an-order {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.order-form .placing-an-order .your-order {
+  width: 254px;
+  height: 243px;
+  border-radius: 11px;
+  background: #fff;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.04);
+  padding: 24px 0 0 21px;
+}
+.order-form .placing-an-order .your-order .title {
+  color: #bcbcbc;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.order-form .placing-an-order .your-order h3 {
+  margin-top: 23px;
+  color: #636363;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130.078%;
+}
+.order-form .placing-an-order .your-order .count {
+  color: #636363;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130.078%;
+}
+.order-form .placing-an-order .your-order .total-price h2 {
+  color: #636363;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130.078%;
+}
+.order-form .placing-an-order .your-order .total-price h3 {
+  color: #ff8a00;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.order-form .placing-an-order .ordering-block .selecting-the-type-of-printing {
+  display: flex;
+  flex-direction: column;
+  width: 824px;
+  height: 370px;
+  border-radius: 11px;
+  background: #fff;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.04);
+}
+.order-form .placing-an-order .ordering-block .selecting-the-type-of-printing .title {
+  margin: 37px 0 0 15px;
+  color: #636363;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.order-form .placing-an-order .ordering-block .selecting-the-type-of-printing .cards {
+  margin-top: 28px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.order-form .placing-an-order .ordering-block .selecting-the-type-of-printing .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 20px;
+  padding: 20px;
+  width: 210px;
+  height: 210px;
+  border-radius: 11px;
+  border: 1px solid #e2e2e2;
+  background: #fdfdfd;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.07);
+}
+.order-form .placing-an-order .ordering-block .order-details {
+  padding: 36px 0 0 53px;
+  margin-top: 25px;
+  width: 771px;
+  height: 3300px;
+  border-radius: 11px;
+  background: #fff;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.04);
+}
+.order-form .placing-an-order .ordering-block .order-details .title {
+  margin-top: 36px;
+  color: #636363;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.order-form .placing-an-order .ordering-block .order-details .cards {
+  margin-top: 28px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.order-form .placing-an-order .ordering-block .order-details .cards .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 20px;
+  padding: 50px 15px 15px 15px;
+  width: 210px;
+  height: 210px;
+  border-radius: 11px;
+  border: 1px solid #e2e2e2;
+  background: #fdfdfd;
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.07);
+}
+.order-form .placing-an-order .ordering-block .order-details .cards .card .question {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.order-form .placing-an-order .ordering-block .order-details .cards .card .seal-png {
+  align-self: center;
+}
+.order-form .placing-an-order .ordering-block .order-details .container {
+  display: flex;
+  gap: 12px;
+}
+.order-form .placing-an-order .ordering-block .order-details .container label {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 8px;
+  background: #f8f8f8;
+}
+.order-form .placing-an-order .ordering-block .order-details .container label span {
+  color: #8f8f8f;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.order-form .placing-an-order .ordering-block .order-details .count-block {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+  background: #f8f8f8;
+  padding: 10px 5px;
+  width: 125px;
+}
+.order-form .placing-an-order .ordering-block .order-details .count-block a {
+  width: 22px;
+  height: 22px;
+  border-radius: 50px;
+  color: #686868;
+  background-color: #d4d4d4;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+.order-form .placing-an-order .ordering-block .order-details .button-wrapper {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.order-form .placing-an-order .ordering-block .order-details .button-wrapper .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  background: #00d23b;
+  width: 211px;
+  height: 44px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-decoration: none;
+}
+.order-form .placing-an-order .ordering-block .order-details .button-wrapper h1 {
+  color: #898989;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.order-form .placing-an-order .ordering-block .container-inputs {
+  display: flex;
+  gap: 17px;
+}
+.order-form .placing-an-order .ordering-block .container-inputs input,
+.order-form .placing-an-order .ordering-block .container-inputs textarea {
+  margin-top: 22px;
+  fill: #fcfcfc;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid #d0d0d0;
+  padding-left: 20px;
+}
+.order-form .placing-an-order .ordering-block .container-inputs .one {
+  width: 465px;
+  height: 44px;
+}
+.order-form .placing-an-order .ordering-block .container-inputs .two {
+  width: 169px;
+  height: 44px;
+}
+.order-form .placing-an-order .ordering-block .container-inputs .three {
+  width: 192px;
+  height: 44px;
+}
+.order-form .placing-an-order .ordering-block .container-inputs .four {
+  padding-top: 10px;
+  resize: none;
+  width: 717px;
+  height: 151px;
+}
+.order-form .placing-an-order .ordering-block label {
+  color: #1b1b1b;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.order-form .placing-an-order .ordering-block label .checkbox {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+.order-form .placing-an-order .ordering-block label .checkbox-circle {
+  position: relative;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: #f5f5f5;
+  border: 4px solid #d4d4d4;
+  border-radius: 50px;
+  vertical-align: sub;
+  margin-right: 8px;
+}
+.order-form .placing-an-order .ordering-block label .checkbox-circle::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  border-radius: 50px;
+  background-color: #0d386b;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.2s ease;
+}
+.order-form .placing-an-order .ordering-block label .checkbox:checked + .checkbox-circle::before {
+  transform: translate(-50%, -50%) scale(1);
+  transition: 0.2s ease-in-out;
 }/*# sourceMappingURL=style.css.map */

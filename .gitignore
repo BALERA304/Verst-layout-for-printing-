@@ -3,4 +3,6 @@ style.scss
 style.css.map
 _header.scss
 _form.scss
-_price-container.scss
+
+_popular-goods.scss
+_price.scss
